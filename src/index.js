@@ -1,1 +1,3 @@
-console.log("Hello this is a test!");
+import initialPageLoad from "./initialPageLoad";
+
+initialPageLoad();
