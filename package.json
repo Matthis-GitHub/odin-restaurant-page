@@ -4,9 +4,9 @@
   "description": "In this project I'll create a restaurant page by only using JavaScript to generate the entire contents of the website.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "watch": "webpack --watch"
+    "dev": "webpack serve",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
